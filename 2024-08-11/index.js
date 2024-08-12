@@ -5,7 +5,7 @@ const path = require('path');
 const port = 3000;
 
 const publicDirectory = path.join(__dirname, '../public');
-const filesDirectory = path.join(__dirname, '../public/files');
+const filesDirectory = path.join(__dirname, '../files');
 
 const server = http.createServer((req, res) => {
   const url = req.url;
