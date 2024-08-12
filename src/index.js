@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
 });
 
 function serveFile(filePath, res) {
-  fs.readFile(filePath, (err, data) => {
+  fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading file:', err);
       res.writeHead(404);
