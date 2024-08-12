@@ -1,0 +1,23 @@
+/* Basic styling for the app */
+#file-list {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+  
+#file-content {
+  float: right;
+  width: 70%;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust height as needed */
+}
+
+#button-container {
+  align-self: flex-start; /* Or align-self: flex-end for bottom alignment */
+}
+
+  

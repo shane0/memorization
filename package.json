@@ -1,0 +1,16 @@
+{
+  "name": "memorization",
+  "version": "1.0.0",
+  "description": "memorization tools",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
